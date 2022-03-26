@@ -2,17 +2,12 @@
 !wp-content/
 
 # ignore everything in the "wp-content" directory, except:
-# "mu-plugins", "plugins", "themes" directory
+# "maintenance", "plugins", "themes", "uploads" directory
 wp-content/*
-!wp-content/mu-plugins/
+!wp-content/maintenance/
 !wp-content/plugins/
 !wp-content/themes/
-
-# ignore these plugins
-wp-content/plugins/hello.php
-
-# ignore specific themes
-wp-content/themes/twenty*/
+!wp-content/uploads/
 
 # ignore node dependency directories
 node_modules/
